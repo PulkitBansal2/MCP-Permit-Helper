@@ -1,0 +1,4 @@
+mcp>=1.0.0
+python-docx>=1.1.0
+docxtpl>=0.16.7
+pydantic>=2.0.0
