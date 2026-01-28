@@ -1,0 +1,50 @@
+{
+  "permits": [
+    {
+      "id": "building",
+      "name": "Building Permit",
+      "template": "building-permit.docx",
+      "triggers": ["construction", "renovation", "addition", "new building", "structural"],
+      "requiredFields": [
+        "projectAddress",
+        "ownerName",
+        "ownerPhone",
+        "contractorName",
+        "contractorLicense",
+        "projectDescription",
+        "estimatedCost",
+        "startDate"
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical Permit",
+      "template": "electrical-permit.docx",
+      "triggers": ["electrical work", "wiring", "panel upgrade", "new circuits", "electrical"],
+      "requiredFields": [
+        "projectAddress",
+        "ownerName",
+        "electricianName",
+        "electricianLicense",
+        "workDescription",
+        "voltage",
+        "amperage"
+      ]
+    },
+    {
+      "id": "plumbing",
+      "name": "Plumbing Permit",
+      "template": "plumbing-permit.docx",
+      "triggers": ["plumbing", "water lines", "sewer", "gas lines", "pipes"],
+      "requiredFields": [
+        "projectAddress",
+        "ownerName",
+        "plumberName",
+        "plumberLicense",
+        "workDescription",
+        "waterConnection",
+        "sewerConnection"
+      ]
+    }
+  ]
+}
